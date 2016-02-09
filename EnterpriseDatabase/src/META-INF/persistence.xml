@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="EnterpriseDatabase">
+		<class>com.enterprisedatabase.model.Customer</class>
+		<class>com.enterprisedatabase.model.Employee</class>
+		<class>com.enterprisedatabase.model.Office</class>
+		<class>com.enterprisedatabase.model.Orderdetail</class>
+		<class>com.enterprisedatabase.model.OrderdetailPK</class>
+		<class>com.enterprisedatabase.model.Order</class>
+		<class>com.enterprisedatabase.model.Payment</class>
+		<class>com.enterprisedatabase.model.PaymentPK</class>
+		<class>com.enterprisedatabase.model.Productline</class>
+		<class>com.enterprisedatabase.model.Product</class>
+	</persistence-unit>
+</persistence>
