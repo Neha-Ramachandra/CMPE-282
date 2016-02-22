@@ -204,4 +204,13 @@ public class Customer implements Serializable {
 		return payment;
 	}
 
+	
+	
+	public void addCustomer(List<Customer> allcustomers ) {
+	    Customer customer = new Customer();
+	    customer.addCustomer(allcustomers); // add the player object not name
+	 
+	}
+
+	
 }

@@ -20,6 +20,8 @@ public class Payment implements Serializable {
 
 	private double amount;
 
+	private String checkNumber;
+
 	@Temporal(TemporalType.DATE)
 	private Date paymentDate;
 
@@ -45,6 +47,14 @@ public class Payment implements Serializable {
 
 	public void setAmount(double amount) {
 		this.amount = amount;
+	}
+
+	public String getCheckNumber() {
+		return this.checkNumber;
+	}
+
+	public void setCheckNumber(String checkNumber) {
+		this.checkNumber = checkNumber;
 	}
 
 	public Date getPaymentDate() {
