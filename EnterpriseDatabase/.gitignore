@@ -1,2 +1,6 @@
-/build/
-/target/
+.classpath
+EnterpriseDatabase.iml
+.idea/
+out/
+.gitignore
+target/
